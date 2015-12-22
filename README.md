@@ -19,4 +19,10 @@ view.addSubview(ribbonView)
 
 This creates the following view:
 
-![example1](https://github.com/vicino/VCRibbonView/blob/master/ReadmeAssets/CornerRibbon)
+![example1](https://github.com/vicino/VCRibbonView/blob/master/VCRibbonView/Readme Assets/CornerRibbon.png)
+
+#### Customizable Properties
+
+- thickness
+- ribbonColor
+- text
