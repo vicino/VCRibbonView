@@ -24,7 +24,7 @@ view.addSubview(ribbonView)
 This creates one of the following views:
 
 ![example1](https://github.com/vicino/VCRibbonView/blob/master/VCRibbonView/Readme Assets/CornerRibbon.png)
-![example1](https://github.com/vicino/VCRibbonView/blob/master/VCRibbonView/Readme Assets/FancyRibbon.png)
+![example2](https://github.com/vicino/VCRibbonView/blob/master/VCRibbonView/Readme Assets/FancyRibbon.png)
 
 #### Customizable Properties
 
