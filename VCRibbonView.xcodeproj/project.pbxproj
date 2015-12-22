@@ -16,10 +16,11 @@
 		02B791151C28ED62002FAF5C /* VCRibbonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B791141C28ED62002FAF5C /* VCRibbonViewTests.swift */; };
 		02B791201C28ED62002FAF5C /* VCRibbonViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */; };
 		02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */; };
-		02DFCB661C29263700E2A3D9 /* CornerRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFCB651C29263600E2A3D9 /* CornerRibbon.png */; };
 		02DFCB681C2929D900E2A3D9 /* VCFancyRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB671C2929D900E2A3D9 /* VCFancyRibbonView.swift */; };
 		02DFCB6A1C292A6E00E2A3D9 /* FancyRibbonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB691C292A6E00E2A3D9 /* FancyRibbonViewController.swift */; };
 		02DFCB6C1C2934CB00E2A3D9 /* UIColor+Darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB6B1C2934CB00E2A3D9 /* UIColor+Darken.swift */; };
+		02DFCB701C2946EC00E2A3D9 /* CornerRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFCB6F1C2946EC00E2A3D9 /* CornerRibbon.png */; };
+		02DFCB721C29470200E2A3D9 /* FancyRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFCB711C29470200E2A3D9 /* FancyRibbon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,11 @@
 		02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRibbonViewUITests.swift; sourceTree = "<group>"; };
 		02B791211C28ED62002FAF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRibbonView.swift; sourceTree = "<group>"; };
-		02DFCB651C29263600E2A3D9 /* CornerRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerRibbon.png; sourceTree = "<group>"; };
 		02DFCB671C2929D900E2A3D9 /* VCFancyRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCFancyRibbonView.swift; sourceTree = "<group>"; };
 		02DFCB691C292A6E00E2A3D9 /* FancyRibbonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyRibbonViewController.swift; sourceTree = "<group>"; };
 		02DFCB6B1C2934CB00E2A3D9 /* UIColor+Darken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Darken.swift"; sourceTree = "<group>"; };
+		02DFCB6F1C2946EC00E2A3D9 /* CornerRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerRibbon.png; sourceTree = "<group>"; };
+		02DFCB711C29470200E2A3D9 /* FancyRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FancyRibbon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +148,8 @@
 		02DFCB641C29262200E2A3D9 /* Readme Assets */ = {
 			isa = PBXGroup;
 			children = (
-				02DFCB651C29263600E2A3D9 /* CornerRibbon.png */,
+				02DFCB6F1C2946EC00E2A3D9 /* CornerRibbon.png */,
+				02DFCB711C29470200E2A3D9 /* FancyRibbon.png */,
 			);
 			path = "Readme Assets";
 			sourceTree = "<group>";
@@ -255,9 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DFCB701C2946EC00E2A3D9 /* CornerRibbon.png in Resources */,
+				02DFCB721C29470200E2A3D9 /* FancyRibbon.png in Resources */,
 				02B7910A1C28ED62002FAF5C /* LaunchScreen.storyboard in Resources */,
 				02B791071C28ED62002FAF5C /* Assets.xcassets in Resources */,
-				02DFCB661C29263700E2A3D9 /* CornerRibbon.png in Resources */,
 				02B791051C28ED62002FAF5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

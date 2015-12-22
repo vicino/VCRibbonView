@@ -12,7 +12,7 @@ class VCRibbonView: UIView {
     
     var start: CGFloat = 40
     var thickness: CGFloat = 30
-    var text = "Coming soon!" {
+    var text = "50% Off" {
         didSet {
             ribbonView.text = text
             ribbonView.setNeedsDisplay()

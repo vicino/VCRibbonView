@@ -13,7 +13,5 @@ class FancyRibbonViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let ribbonView = VCFancyRibbonView(frame: CGRectMake(100, 100, 200, 200))
-        view.addSubview(ribbonView)
     }
 }
