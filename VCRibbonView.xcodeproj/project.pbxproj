@@ -15,6 +15,7 @@
 		02B7910A1C28ED62002FAF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B791081C28ED62002FAF5C /* LaunchScreen.storyboard */; };
 		02B791151C28ED62002FAF5C /* VCRibbonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B791141C28ED62002FAF5C /* VCRibbonViewTests.swift */; };
 		02B791201C28ED62002FAF5C /* VCRibbonViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */; };
+		02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		02B7911B1C28ED62002FAF5C /* VCRibbonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCRibbonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRibbonViewUITests.swift; sourceTree = "<group>"; };
 		02B791211C28ED62002FAF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRibbonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		02B790FC1C28ED62002FAF5C /* VCRibbonView */ = {
 			isa = PBXGroup;
 			children = (
+				02B7910B1C28ED62002FAF5C /* Info.plist */,
 				02B790FD1C28ED62002FAF5C /* AppDelegate.swift */,
-				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
 				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
-				02B791031C28ED62002FAF5C /* Main.storyboard */,
+				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
+				02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */,
 				02B791061C28ED62002FAF5C /* Assets.xcassets */,
 				02B791081C28ED62002FAF5C /* LaunchScreen.storyboard */,
-				02B7910B1C28ED62002FAF5C /* Info.plist */,
+				02B791031C28ED62002FAF5C /* Main.storyboard */,
 			);
 			path = VCRibbonView;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B791021C28ED62002FAF5C /* DetailViewController.swift in Sources */,
+				02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */,
 				02B791001C28ED62002FAF5C /* MasterViewController.swift in Sources */,
 				02B790FE1C28ED62002FAF5C /* AppDelegate.swift in Sources */,
 			);
