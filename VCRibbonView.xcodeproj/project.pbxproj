@@ -17,6 +17,9 @@
 		02B791201C28ED62002FAF5C /* VCRibbonViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */; };
 		02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */; };
 		02DFCB661C29263700E2A3D9 /* CornerRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFCB651C29263600E2A3D9 /* CornerRibbon.png */; };
+		02DFCB681C2929D900E2A3D9 /* VCFancyRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB671C2929D900E2A3D9 /* VCFancyRibbonView.swift */; };
+		02DFCB6A1C292A6E00E2A3D9 /* FancyRibbonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB691C292A6E00E2A3D9 /* FancyRibbonViewController.swift */; };
+		02DFCB6C1C2934CB00E2A3D9 /* UIColor+Darken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFCB6B1C2934CB00E2A3D9 /* UIColor+Darken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		02B791211C28ED62002FAF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRibbonView.swift; sourceTree = "<group>"; };
 		02DFCB651C29263600E2A3D9 /* CornerRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerRibbon.png; sourceTree = "<group>"; };
+		02DFCB671C2929D900E2A3D9 /* VCFancyRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCFancyRibbonView.swift; sourceTree = "<group>"; };
+		02DFCB691C292A6E00E2A3D9 /* FancyRibbonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyRibbonViewController.swift; sourceTree = "<group>"; };
+		02DFCB6B1C2934CB00E2A3D9 /* UIColor+Darken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Darken.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +109,18 @@
 		02B790FC1C28ED62002FAF5C /* VCRibbonView */ = {
 			isa = PBXGroup;
 			children = (
-				02DFCB641C29262200E2A3D9 /* Readme Assets */,
-				02B790FD1C28ED62002FAF5C /* AppDelegate.swift */,
-				02B791061C28ED62002FAF5C /* Assets.xcassets */,
-				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
 				02B7910B1C28ED62002FAF5C /* Info.plist */,
+				02B790FD1C28ED62002FAF5C /* AppDelegate.swift */,
+				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
+				02DFCB691C292A6E00E2A3D9 /* FancyRibbonViewController.swift */,
+				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
+				02DFCB6B1C2934CB00E2A3D9 /* UIColor+Darken.swift */,
+				02DFCB671C2929D900E2A3D9 /* VCFancyRibbonView.swift */,
+				02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */,
+				02B791061C28ED62002FAF5C /* Assets.xcassets */,
 				02B791081C28ED62002FAF5C /* LaunchScreen.storyboard */,
 				02B791031C28ED62002FAF5C /* Main.storyboard */,
-				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
-				02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */,
+				02DFCB641C29262200E2A3D9 /* Readme Assets */,
 			);
 			path = VCRibbonView;
 			sourceTree = "<group>";
@@ -274,9 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DFCB6C1C2934CB00E2A3D9 /* UIColor+Darken.swift in Sources */,
 				02B791021C28ED62002FAF5C /* DetailViewController.swift in Sources */,
 				02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */,
+				02DFCB681C2929D900E2A3D9 /* VCFancyRibbonView.swift in Sources */,
 				02B791001C28ED62002FAF5C /* MasterViewController.swift in Sources */,
+				02DFCB6A1C292A6E00E2A3D9 /* FancyRibbonViewController.swift in Sources */,
 				02B790FE1C28ED62002FAF5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
