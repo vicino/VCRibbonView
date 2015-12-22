@@ -19,4 +19,4 @@ view.addSubview(ribbonView)
 
 This creates the following view:
 
-![example1](https://github.com/vicino/VCRibbonView/blob/master/ReadmeAssets/CornerRibbon)
+![example1](https://github.com/vicino/VCRibbonView/blob/master/Readme Assets/CornerRibbon.png)
