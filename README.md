@@ -17,3 +17,6 @@ let ribbonView = VCRibbonView(frame: CGRectMake(100, 100, 200, 200))
 view.addSubview(ribbonView)
 ```
 
+This creates the following view:
+
+![example1](https://github.com/vicino/VCRibbonView/blob/master/ReadmeAssets/CornerRibbon)
