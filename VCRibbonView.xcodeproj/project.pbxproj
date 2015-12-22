@@ -83,10 +83,10 @@
 		02B790F11C28ED61002FAF5C = {
 			isa = PBXGroup;
 			children = (
+				02B790FB1C28ED62002FAF5C /* Products */,
 				02B790FC1C28ED62002FAF5C /* VCRibbonView */,
 				02B791131C28ED62002FAF5C /* VCRibbonViewTests */,
 				02B7911E1C28ED62002FAF5C /* VCRibbonViewUITests */,
-				02B790FB1C28ED62002FAF5C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,14 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				02DFCB641C29262200E2A3D9 /* Readme Assets */,
-				02B7910B1C28ED62002FAF5C /* Info.plist */,
 				02B790FD1C28ED62002FAF5C /* AppDelegate.swift */,
-				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
-				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
-				02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */,
 				02B791061C28ED62002FAF5C /* Assets.xcassets */,
+				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
+				02B7910B1C28ED62002FAF5C /* Info.plist */,
 				02B791081C28ED62002FAF5C /* LaunchScreen.storyboard */,
 				02B791031C28ED62002FAF5C /* Main.storyboard */,
+				02B790FF1C28ED62002FAF5C /* MasterViewController.swift */,
+				02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */,
 			);
 			path = VCRibbonView;
 			sourceTree = "<group>";
@@ -119,8 +119,8 @@
 		02B791131C28ED62002FAF5C /* VCRibbonViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				02B791141C28ED62002FAF5C /* VCRibbonViewTests.swift */,
 				02B791161C28ED62002FAF5C /* Info.plist */,
+				02B791141C28ED62002FAF5C /* VCRibbonViewTests.swift */,
 			);
 			path = VCRibbonViewTests;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 		02B7911E1C28ED62002FAF5C /* VCRibbonViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */,
 				02B791211C28ED62002FAF5C /* Info.plist */,
+				02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */,
 			);
 			path = VCRibbonViewUITests;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			children = (
 				02DFCB651C29263600E2A3D9 /* CornerRibbon.png */,
 			);
-			name = "Readme Assets";
+			path = "Readme Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +319,7 @@
 				02B791041C28ED62002FAF5C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		02B791081C28ED62002FAF5C /* LaunchScreen.storyboard */ = {
@@ -327,6 +328,7 @@
 				02B791091C28ED62002FAF5C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
