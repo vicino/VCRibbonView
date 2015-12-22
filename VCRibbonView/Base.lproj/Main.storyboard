@@ -31,35 +31,10 @@
                     <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ugq-ci-Xpk" customClass="VCRibbonView" customModule="VCRibbonView" customModuleProvider="target">
-                                <rect key="frame" x="200" y="200" width="200" height="200"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="NPB-LS-8SA">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="AUM-or-J2g"/>
-                                    <constraint firstItem="NPB-LS-8SA" firstAttribute="top" secondItem="Ugq-ci-Xpk" secondAttribute="top" id="PLz-Op-XfR"/>
-                                    <constraint firstAttribute="trailing" secondItem="NPB-LS-8SA" secondAttribute="trailing" id="e0E-sA-sjs"/>
-                                    <constraint firstAttribute="bottom" secondItem="NPB-LS-8SA" secondAttribute="bottom" id="mcf-Lb-TQ9"/>
-                                    <constraint firstItem="NPB-LS-8SA" firstAttribute="leading" secondItem="Ugq-ci-Xpk" secondAttribute="leading" id="rtt-Jd-Ihb"/>
-                                    <constraint firstAttribute="width" constant="200" id="zn9-px-8aS"/>
-                                </constraints>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Ugq-ci-Xpk" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="STo-5r-ASZ"/>
-                            <constraint firstItem="Ugq-ci-Xpk" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" id="kc6-t0-0KH"/>
-                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
-                    <connections>
-                        <outlet property="ribbonView" destination="Ugq-ci-Xpk" id="csC-Eu-olk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +87,4 @@
             <point key="canvasLocation" x="709" y="-630"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="food" width="630" height="400"/>
-    </resources>
 </document>

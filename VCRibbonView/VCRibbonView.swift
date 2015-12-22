@@ -9,7 +9,7 @@
 import UIKit
 
 class VCRibbonView: UIView {
-
+    
     var start: CGFloat = 40
     var thickness: CGFloat = 30
     var text = "Coming soon!" {
@@ -28,6 +28,15 @@ class VCRibbonView: UIView {
     required init?(coder aDecoder: NSCoder) {
         ribbonView = RibbonView(text: text, backgroundColor: ribbonColor)
         super.init(coder: aDecoder)
+        initialize()
+    }
+    override init(frame: CGRect) {
+        ribbonView = RibbonView(text: text, backgroundColor: ribbonColor)
+        super.init(frame: frame)
+        initialize()
+    }
+    
+    private func initialize() {
         clipsToBounds = true
         backgroundColor = UIColor.groupTableViewBackgroundColor()
         let frame = CGRectMake(0, 0, self.frame.size.width, thickness)
@@ -48,7 +57,7 @@ private class RibbonView: UIView {
         super.init(frame: CGRectZero)
         self.backgroundColor = backgroundColor
     }
-
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

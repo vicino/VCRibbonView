@@ -14,6 +14,8 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let ribbonView = VCRibbonView(frame: CGRectMake(100, 100, 200, 200))
+        view.addSubview(ribbonView)
     }
 }
 

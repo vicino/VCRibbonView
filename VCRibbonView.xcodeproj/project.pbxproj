@@ -16,6 +16,7 @@
 		02B791151C28ED62002FAF5C /* VCRibbonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B791141C28ED62002FAF5C /* VCRibbonViewTests.swift */; };
 		02B791201C28ED62002FAF5C /* VCRibbonViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */; };
 		02B7912E1C28F23D002FAF5C /* VCRibbonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */; };
+		02DFCB661C29263700E2A3D9 /* CornerRibbon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02DFCB651C29263600E2A3D9 /* CornerRibbon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		02B7911F1C28ED62002FAF5C /* VCRibbonViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRibbonViewUITests.swift; sourceTree = "<group>"; };
 		02B791211C28ED62002FAF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B7912D1C28F23D002FAF5C /* VCRibbonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRibbonView.swift; sourceTree = "<group>"; };
+		02DFCB651C29263600E2A3D9 /* CornerRibbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerRibbon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		02B790FC1C28ED62002FAF5C /* VCRibbonView */ = {
 			isa = PBXGroup;
 			children = (
+				02DFCB641C29262200E2A3D9 /* Readme Assets */,
 				02B7910B1C28ED62002FAF5C /* Info.plist */,
 				02B790FD1C28ED62002FAF5C /* AppDelegate.swift */,
 				02B791011C28ED62002FAF5C /* DetailViewController.swift */,
@@ -129,6 +132,14 @@
 				02B791211C28ED62002FAF5C /* Info.plist */,
 			);
 			path = VCRibbonViewUITests;
+			sourceTree = "<group>";
+		};
+		02DFCB641C29262200E2A3D9 /* Readme Assets */ = {
+			isa = PBXGroup;
+			children = (
+				02DFCB651C29263600E2A3D9 /* CornerRibbon.png */,
+			);
+			name = "Readme Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 			files = (
 				02B7910A1C28ED62002FAF5C /* LaunchScreen.storyboard in Resources */,
 				02B791071C28ED62002FAF5C /* Assets.xcassets in Resources */,
+				02DFCB661C29263700E2A3D9 /* CornerRibbon.png in Resources */,
 				02B791051C28ED62002FAF5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +502,7 @@
 				02B791261C28ED62002FAF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02B791271C28ED62002FAF5C /* Build configuration list for PBXNativeTarget "VCRibbonViewTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +511,7 @@
 				02B791291C28ED62002FAF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02B7912A1C28ED62002FAF5C /* Build configuration list for PBXNativeTarget "VCRibbonViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +520,7 @@
 				02B7912C1C28ED62002FAF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
